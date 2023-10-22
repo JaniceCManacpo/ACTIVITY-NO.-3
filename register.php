@@ -3,10 +3,10 @@
 $host     = "localhost";
 $username = "root";
 $password = "";
-$database = "database_name";
+$database = "regestration";
 
 // Create connection
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($host, $username, $password, $regestration);
 
 // Check connection
 if ($conn->connect_error) {
